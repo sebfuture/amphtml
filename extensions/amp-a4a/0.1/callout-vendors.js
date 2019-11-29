@@ -155,6 +155,12 @@ const RTC_VENDORS = jsonConfiguration({
     macros: ['TAG_ID'],
     disableKeyAppend: true,
   },
+  future: {
+    url:
+      'https://ads.servebom.com/ramp?&fmt=amp&o={%22p%22%3APLACEMENT_ID,%22a%22:[{%22d%22:%22DIV_ID%22}]}',
+    macros: ['PLACEMENT_ID', 'DIV_ID'],
+    disableKeyAppend: true,
+  },
 });
 
 // DO NOT MODIFY: Setup for tests

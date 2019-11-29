@@ -127,6 +127,7 @@ The `errorReportingUrl` property is optional. The only available macros are ERRO
 - APS
 - Automatad
 - Criteo
+- Future
 - IndexExchange
 - Lotame
 - Media.net
